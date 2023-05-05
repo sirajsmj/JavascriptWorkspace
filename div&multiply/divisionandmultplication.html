@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>div & multiply</title>
+    <style>
+h1 {
+    align-items: center;
+    text-align: center;
+    color: rgb(51, 106, 106);
+}
+form{
+    align-items: center;
+    text-align: center;
+    color: rgb(51, 106, 106);
+}
+div{
+    padding-top: 30px;
+}
+#btn1{
+    padding-right: 10px;
+    width: fit-content;
+    color: rgb(245, 241, 248);
+    background-color: rgb(0, 8, 8);
+    
+}
+#btn2{
+    padding-left: 10px;
+    margin-left: 30px;
+    color: rgb(245, 241, 248);
+    background-color: rgb(0, 8, 8);
+}
+#secondnum{
+    margin-top: 10px;
+}
+h1{
+    color: rgb(245, 241, 248);
+    background-color: rgb(0, 8, 8);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+ </style>
+</head>
+<body>
+    <h1>Division & Multplication</h1>
+            <form id="form">
+                <label for="firstnum">1st Num : </labbel>
+                    <input type="text" id="firstnum"><br>
+                <label for="secondnum">2nd Num : </labbel>
+                <input type="text" id="secondnum"><br>
+                <div>
+                <input type="button" id="btn1" onClick="multiply()" value="Multiply">
+                <input type="button" id="btn2" onClick="divide()" value="Divide">
+            </div>
+                <p>The Result is :</p>
+                <p id="result"></p>
+               </form>
+            <script src="divisionandmultplication.js"></script>
+
+            
+</body>
+</html>
