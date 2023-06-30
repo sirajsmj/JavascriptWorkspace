@@ -1,0 +1,52 @@
+body {
+  flex: auto;
+}
+
+.images {
+  background: rgb(161, 249, 232);
+  flex: 0 0 80%;
+  min-height: 70vh;
+  border-radius: 15px;
+  box-shadow: 5px 10px black;
+  position: relative;
+  width: 85rem;
+  min-height: 472px;
+  margin: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: black;
+  border: 3px solid green;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  box-shadow: 2px 5px black;
+  border-radius: 20%;
+  outline: none;
+}
+
+.prevbtn {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.nextbtn {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(50%, -50%);
+}
+
+.btn:active {
+  background: gray;
+  box-shadow: 1px 1px gray;
+}
+
+.btn:hover {
+  background: green;
+  color: white;
+}
