@@ -1,0 +1,58 @@
+body {
+  background-image: url(counter.jpg);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.counter-box {
+  width: fit-content;
+  flex: 0 0 70%;
+  font-weight: bold;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid grey;
+  border-radius: 2px;
+  border-color: brown;
+  text-align: center;
+  font-size: xx-large;
+  margin-left: 497px;
+  margin-top: 80px;
+  box-shadow: 5px rgb(9, 255, 185);
+}
+
+.counter {
+  font-size: 90px;
+}
+.btn {
+  background-color: aqua;
+  border-radius: 6px;
+  font-size: 2rem;
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(121, 2, 2);
+  box-shadow: 1px saddlebrown;
+  cursor: pointer;
+}
+
+.btns:hover {
+  background-color: rgb(9, 246, 254);
+}
+#add-btn:active {
+  box-shadow: none;
+  background-color: rgb(50, 230, 41);
+}
+
+#low-btn:active {
+  box-shadow: none;
+  background-color: rgb(255, 0, 0);
+}
+#reset-btn:active {
+  box-shadow: none;
+  background-color: rgb(255, 225, 0);
+}
