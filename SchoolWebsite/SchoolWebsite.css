@@ -1,0 +1,160 @@
+#title {
+  background-color: rgb(0, 0, 0);
+  color: rgb(18, 207, 15);
+  font-size: 4rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  display: block;
+  padding: 10px 80px 17px 15px;
+  font-size: 24px;
+}
+.container {
+  background-color: darkgreen;
+  height: 55px;
+  color: azure;
+  margin: 2px;
+  padding-left: 100px;
+}
+
+.style {
+  text-decoration-line: none;
+  color: azure;
+}
+
+body {
+  flex: auto;
+  margin: 0px;
+}
+.submenu1 {
+  display: none;
+  text-decoration-line: none;
+  color: azure;
+}
+ul li:hover {
+  background-color: rgb(2, 40, 3);
+  border-radius: 2px;
+  cursor: pointer;
+}
+ul li:hover .submenu1 {
+  display: block;
+  position: absolute;
+}
+
+ul li:hover .submenu1 ul {
+  display: block;
+  position: absolute;
+  background-color: darkgreen;
+  border-radius: 2px;
+  color: white !important;
+  text-decoration-line: none;
+  width: 252px;
+  left: -15px;
+  top: 20px;
+  z-index: 10;
+  text-align: left;
+}
+
+.submenu1 ul li {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+.submenu1 ul li:hover {
+  width: 157px;
+}
+.submenu1 ul li a {
+  color: azure !important;
+  text-decoration: none;
+  text-align: left;
+}
+
+.imgtext {
+  display: flex;
+  height: 30rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  background-color: black;
+  justify-content: space-between;
+}
+.text {
+  color: rgb(235, 250, 250);
+  padding-left: 18px;
+}
+#abtimg {
+  padding-bottom: 15px;
+}
+.add {
+  background-color: black;
+  margin-left: 15px;
+  color: rgb(255, 213, 0);
+  text-align: center;
+  width: 63%;
+  font-size: 3rem;
+}
+
+u {
+  font-size: 2rem;
+}
+.bottom {
+  color: bisque;
+  background-color: black;
+}
+
+marquee {
+  background-color: darkgoldenrod;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 8px;
+  padding-top: -20px;
+  align-items: center;
+  height: fit-content;
+}
+
+.ani {
+  color: rgb(0, 255, 42);
+  background-color: black;
+  width: fit-content;
+}
+.addandimg {
+  padding-left: 10px;
+  display: flex;
+  height: 300px;
+}
+
+.slide-track {
+  display: flex;
+  padding-left: 10px;
+  width: 100%;
+
+  height: 300px;
+}
+.slider {
+  overflow: hidden;
+}
+.slide {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+u {
+  background-color: rgb(255, 234, 0);
+  color: rgb(75, 3, 243);
+  padding-bottom: 4px;
+  padding-left: 4px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
